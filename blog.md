@@ -4,6 +4,10 @@ title: My Blogs
 permalink: /blog/
 ---
 
+<h1>Collections of Technical Hacks </h1>
+
+
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
