@@ -3,6 +3,8 @@ layout: post
 title: Run Bert as service using docker
 --- 
 
+This post gives steps to run Bert as a service using Docker
+
 
 1. Download repo and model
   1.1. git clone https://github.com/hanxiao/bert-as-service.git
