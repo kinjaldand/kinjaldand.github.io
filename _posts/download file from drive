@@ -1,3 +1,10 @@
+---
+layout: post
+title: Download large files on google drive using curl
+---
+
+Follow below linux commands and Voila!
+
 ggID='put_googleID_here'  
 ggURL='https://drive.google.com/uc?export=download'  
 filename="$(curl -sc /tmp/gcokie "${ggURL}&id=${ggID}" | grep -o '="uc-name.*</span>' | sed 's/.*">//;s/<.a> .*//')"  
