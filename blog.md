@@ -1,18 +1,14 @@
 ---
 layout: page
-title: My Blogs
+title: Collections of Technical Hacks
 permalink: /blog/
 ---
-
-<h1>Collections of Technical Hacks </h1>
-
-
 
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><u><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></u></h1>
 
       <div class="entry">
         {{ post.excerpt }}
