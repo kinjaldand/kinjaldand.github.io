@@ -11,4 +11,4 @@ filename="$(curl -sc /tmp/gcokie "${ggURL}&id=${ggID}" | grep -o '="uc-name.*</s
 getcode="$(awk '/_warning_/ {print $NF}' /tmp/gcokie)"  
 curl -Lb /tmp/gcokie "${ggURL}&confirm=${getcode}&id=${ggID}" -o "${filename}" 
 
-REF: https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive
+REF: <a href='https://stackoverflow.com/questions/25010369/wget-curl-large-file-from-google-drive'>Stack Overflow</a>
