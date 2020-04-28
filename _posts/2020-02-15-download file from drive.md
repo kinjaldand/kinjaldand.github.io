@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Download large files on google drive using curl
+title: Download large files from google drive using curl
 ---
 
-Follow below linux commands and Voila!
+Follow below linux commands to download large files from google drive
 
 ggID='put_googleID_here'  
 ggURL='https://drive.google.com/uc?export=download'  
