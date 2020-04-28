@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Run bert as service using docker
+title: Run Bert as service using docker
 --- 
 
 
