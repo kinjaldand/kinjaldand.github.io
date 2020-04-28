@@ -1,4 +1,9 @@
-Problem: Run bert as service using docker
+---
+layout: post
+title: Run bert as service using docker
+--- 
+
+
 1. Download repo and model
   1.1. git clone https://github.com/hanxiao/bert-as-service.git
   1.2. mkdir bertmodels
@@ -12,4 +17,4 @@ Problem: Run bert as service using docker
   3.2 Run commnds from https://nvidia.github.io/nvidia-container-runtime/
   3.3 Run commands from https://github.com/NVIDIA/nvidia-container-runtime#installation
 4. Run docker run command
-5. test with bert as client
+5. Test with bert as client
