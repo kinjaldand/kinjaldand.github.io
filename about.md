@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 ### About me
-<p><img src="../images/IMG_2554 - Copy.JPG" alt="Kinjal Dand" height="150" width="100" style='float:left;margin:50;border:5px solid #F3EFE0;'><span style='display:inline'>Hi! I work as Data Scientist for ATOS. I am born and brought up in Mumbai, India and have over 7+ years of experience working in IT MNCs.
+<p><img src="../images/IMG_2554 - Copy.JPG" alt="Kinjal Dand" height="200" width="150" style='float:left;margin-right:50px;border:5px solid #000;'><span style='display:inline'><br/><br/>Hi! I work as Data Scientist for ATOS. I am born and brought up in Mumbai, India and have over 7+ years of experience working in IT MNCs.
 My job role is mostly technical but I also switch to functional roles occasionally as required.</span></p>
 
 <br/>
