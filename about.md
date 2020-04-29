@@ -4,10 +4,11 @@ title:
 permalink: /about/
 ---
 
-###About Me
-<p><img src="images/IMG_2554 - Copy.JPG" alt="Kinjal Dand" height="100" width="70" style='float:left'><span style='display:inline'>Hi! I work as Data Scientist for ATOS. I am born and brought up in Mumbai, India and have over 7+ years of experience working in IT MNCs.
+###About me
+<p><img src="{{ site.baseurl }}/images/IMG_2554 - Copy.JPG" alt="Kinjal Dand" height="100" width="70" style='float:left'><span style='display:inline'>Hi! I work as Data Scientist for ATOS. I am born and brought up in Mumbai, India and have over 7+ years of experience working in IT MNCs.
 My job role is mostly technical but I also switch to functional roles occasionally as required.<span></p>
 
+<br/>
 When I am not working I could be spending time :
 <ul>
   <li>Reading mystery novels</li>
