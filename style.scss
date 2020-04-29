@@ -262,7 +262,11 @@ nav {
     font-size: 22px;
     font-style: italic;
   }
-
+.post {
+   padding: 0px 10px;
+    background: #eee;
+	}
+	
   .comments {
     margin-top: 10px;
   }
@@ -272,6 +276,13 @@ nav {
     font-size: 15px;
   }
 }
+
+.page {
+	padding: 0px 10px;
+    background: #eee;
+}
+
+
 
 .wrapper-footer {
   margin-top: 50px;
