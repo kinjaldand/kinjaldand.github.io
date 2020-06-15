@@ -1,0 +1,10 @@
+Scenario 1:
+
+Lets say you edit a .sh file in windows and copy it to linux.
+This introduces carriage returns in .sh files causing trouble in running them.
+
+Solution: perl -pi -e 's/\r//' scriptfilename
+
+Ref: https://stackoverflow.com/questions/15520339/how-to-remove-carriage-return-and-newline-from-a-variable-in-shell-script
+
+####----------------------------------------------------------------------------------------####
