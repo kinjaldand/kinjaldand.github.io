@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 90%;
   padding: 0 10px;
   width: 100%;
 }
@@ -243,13 +243,13 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding-bottom: 0em;
+  border-bottom: 0px solid $lightGray;
   background-color: $lightGray;
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  padding-bottom: 0em;
   border-bottom: none;
 }
 
