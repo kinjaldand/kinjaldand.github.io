@@ -15,7 +15,8 @@ When I am not working I could be spending time :
   <li>Learning French</li>
 </ul>
 
+<span style='display:inline'>
 You can learn more about my professional career on <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a>. 
-Feel free to reach out to me at <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a> or drop a mail at [kinjal_dand@yahoo.in](mailto:kinjal_dand@yahoo.in)<br/>Have a nice day! 
+Feel free to reach out to me at <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a> or drop a mail at [kinjal_dand@yahoo.in](mailto:kinjal_dand@yahoo.in)<br/>Have a nice day! </span>
 
 
