@@ -6,7 +6,6 @@ permalink: /about/
 <p><img src="../images/IMG_2554 - Copy.png" alt="Kinjal Dand" height="300" width="200" style='float:left;margin-right:50px;border:5px solid #000;border-radius: 25px;'><span style='display:inline'>Hi! I work as Data Scientist for ATOS. I was born and brought up in Mumbai, India and have more than 7 years of experience working in IT MNCs.
 My job role is mostly technical but I also switch to functional roles occasionally as required.</span></p>
 
-<span  style='display:inline'>
 When I am not working I could be spending time :
 <ul>
   <li>Reading mystery novels</li>
@@ -15,7 +14,6 @@ When I am not working I could be spending time :
   <li>Cooking</li>
   <li>Learning French</li>
 </ul>
-</span>
 
 <span style='display:inline'>
 You can learn more about my professional career on <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a>. 
