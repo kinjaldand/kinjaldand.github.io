@@ -1,0 +1,10 @@
+
+os.makedirs(path, exist_ok=True) # Create directories recursively
+# os.listdir(DIRECTORY) gives you a listing of the contents of that directory
+# os.path.getsize(PATH) gives you the size of the file
+# copyfile(source, destination) copies a file from source to destination
+# random.sample(list, len(list)) shuffles a list
+
+os.remove() removes a file.
+os.rmdir() removes an empty directory.
+shutil.rmtree() deletes a directory and all its contents.
