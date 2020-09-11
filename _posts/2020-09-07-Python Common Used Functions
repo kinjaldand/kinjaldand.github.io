@@ -4,6 +4,7 @@ os.makedirs(path, exist_ok=True) # Create directories recursively
 # os.path.getsize(PATH) gives you the size of the file
 # copyfile(source, destination) copies a file from source to destination
 # random.sample(list, len(list)) shuffles a list
+# filename, file_extension = os.path.splitext('/path/to/somefile.ext')
 
 os.remove() removes a file.
 os.rmdir() removes an empty directory.
