@@ -27,3 +27,9 @@ def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
   housing_tgz.extractall(path=housing_path)
   housing_tgz.close()
 -------------------------------------
+
+-------------------------------------Maintain insert order in dictionary-------------------------------------
+OrderedDict()
+--------------------------------------------------------------------------
+
+
