@@ -1,4 +1,5 @@
 1. Prerequites:
+    https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
     https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
 aws --version
 aws eks --region <region-code> update-kubeconfig --name <cluster_name>
