@@ -7,51 +7,52 @@ title: Install Kubeflow on AWS - Step by Step Guide
 
 # 1. Prerequites:
 # 1.1 Create Kubernetes Cluster on EKS by following steps described in below link.
-    Note cluster name <cluster_name> and region <region-code>, to be used to configure kubectl in coming steps.
-    Ensure kubernetes nodes can support atleast 45 pods if following below version of yaml file of kubeflow in step 2. this can be achieved with relevant minimum and maximum sizes of nodes in add nodes steps described below.
-    https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
+Note cluster name <cluster_name> and region <region-code>, to be used to configure kubectl in coming steps.
+Ensure kubernetes nodes can support atleast 45 pods if following below version of yaml file of kubeflow in step 2. this can be achieved with relevant minimum and maximum sizes of nodes in add nodes steps described below.
+https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
     
 # 1.2 Install aws cli and configure it with aws user credentials.
-    You can refer below link for ubuntu 18
-    https://linuxhint.com/install_aws_cli_ubuntu/
+You can refer below link for ubuntu 18
+https://linuxhint.com/install_aws_cli_ubuntu/
     
 # 1.3 Install and Configure kubectl
-    https://kubernetes.io/docs/tasks/tools/install-kubectl/
-    
-    https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+https://kubernetes.io/docs/tasks/tools/install-kubectl/
+
+https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
     aws --version
     aws eks --region <region-code> update-kubeconfig --name <cluster_name>
     kubectl get svc
     
-    Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflow via UI you will also need load balancer to assign IP address to istio. You can follow below step for same.
+Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflow via UI you will also need load balancer to assign IP address to istio. You can follow below step for same.
     
 # 1.4 Deploy sample app to create load balancer:
 # 1.4.1 Ensure below steps are carried out:
-    https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
-    - VPC subnets tagging
-    - In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
-    - In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
+https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
+- VPC subnets tagging
+- In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
+- In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
 # 1.4.2 Deploy sample app from below:
-    https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
+https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
     
     kubectl get svc --all-namespaces
     
-    This should give ClsuterIp as well as Load Balancer in output.
+This should give ClsuterIp as well as Load Balancer in output.
     
     
 # 2. Kubeflow Installation
-    https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
+# 2.1. Download Kubeflow tar from below link
+https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
     
     tar -xvf kfctl_v1.1.0_<platform>.tar.gz
 
-# 2.1. Add kfctl to PATH, to make the kfctl binary easier to use.
+Add kfctl to PATH, to make the kfctl binary easier to use.
+
     export PATH=$PATH:"<path to kfctl>"
 
 # 2.2. Use the following kfctl configuration file for the AWS setup without authentication:
     export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws.v1.1.0.yaml"
 
-    # Alternatively, use the following kfctl configuration if you want to enable
-    # authentication, authorization and multi-user:
+Alternatively, use the following kfctl configuration if you want to enable authentication, authorization and multi-user:
     export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws_cognito.v1.1.0.yaml"
 
 # 2.3. Set an environment variable for your AWS cluster name.
@@ -78,10 +79,10 @@ title: Install Kubeflow on AWS - Step by Step Guide
 
 
 # 2.9 Access Kubeflow central dashboard
-    Run the following command to get your Kubeflow service’s endpoint host name and copy link in browser.
+Run the following command to get your Kubeflow service’s endpoint host name and copy link in browser.
 
     kubectl get ingress -n istio-system
-    Paste the address value in yor browser to view Kubeflow UI
+Paste the address value in yor browser to view Kubeflow UI
     
 # 3 References:
 1. https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/
