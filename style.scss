@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $darkGray;
+    color: $blue;
   }
 }
 
@@ -155,7 +155,11 @@ img {
   background-color: $blue;
 	color:$white;
 }
-
+.wrapper-masthead a {
+	&:hover, &:active {
+    color: $darkGray;
+  }
+}
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $blue;
@@ -292,6 +296,12 @@ nav {
   border-bottom: 1px solid #ddd;
   background-color: $blue;
 	color:$white;
+}
+
+.wrapper-footer a {
+	&:hover, &:active {
+    color: $darkGray;
+  }
 }
 
 footer {
