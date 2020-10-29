@@ -5,64 +5,70 @@ title: Install Kubeflow on AWS - Step by Step Guide
 
 
 
-1. Prerequites:
-    1.1 Create Kubernetes Cluster on EKS
+# 1. Prerequites:
+# 1.1 Create Kubernetes Cluster on EKS
     https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
-    1.2 Configure kubectl
+# 1.2 Configure kubectl
     https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
-aws --version
-aws eks --region <region-code> update-kubeconfig --name <cluster_name>
-kubectl get svc
+    aws --version
+    aws eks --region <region-code> update-kubeconfig --name <cluster_name>
+    kubectl get svc
     
-    1.3 Deploy sample app to create load balancer:
-    1.3.1 Ensure below steps are carried out:
-        https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
-        - VPC subnets tagging
-        - In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
-        - In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
-    1.3.2 Deploy sample app from below:
-        https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
+# 1.3 Deploy sample app to create load balancer:
+# 1.3.1 Ensure below steps are carried out:
+    https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
+    - VPC subnets tagging
+    - In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
+    - In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
+# 1.3.2 Deploy sample app from below:
+    https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
     
     
-2. Kubeflow Installation
+# 2. Kubeflow Installation
     https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
     
-tar -xvf kfctl_v1.1.0_<platform>.tar.gz
+    tar -xvf kfctl_v1.1.0_<platform>.tar.gz
 
-# 1. Add kfctl to PATH, to make the kfctl binary easier to use.
-export PATH=$PATH:"<path to kfctl>"
+# 2.1. Add kfctl to PATH, to make the kfctl binary easier to use.
+    export PATH=$PATH:"<path to kfctl>"
 
-# 2. Use the following kfctl configuration file for the AWS setup without authentication:
-export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws.v1.1.0.yaml"
+# 2.2. Use the following kfctl configuration file for the AWS setup without authentication:
+    export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws.v1.1.0.yaml"
 
-# Alternatively, use the following kfctl configuration if you want to enable
-# authentication, authorization and multi-user:
-export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws_cognito.v1.1.0.yaml"
+    # Alternatively, use the following kfctl configuration if you want to enable
+    # authentication, authorization and multi-user:
+    export CONFIG_URI="https://raw.githubusercontent.com/kubeflow/manifests/v1.1-branch/kfdef/kfctl_aws_cognito.v1.1.0.yaml"
 
-# 3. Set an environment variable for your AWS cluster name.
-export AWS_CLUSTER_NAME=<YOUR EKS CLUSTER NAME>
+# 2.3. Set an environment variable for your AWS cluster name.
+    export AWS_CLUSTER_NAME=<YOUR EKS CLUSTER NAME>
 
-# 4. Create the directory you want to store deployment, this has to be ${AWS_CLUSTER_NAME}
-mkdir ${AWS_CLUSTER_NAME} && cd ${AWS_CLUSTER_NAME}
+# 2.4. Create the directory you want to store deployment, this has to be ${AWS_CLUSTER_NAME}
+    mkdir ${AWS_CLUSTER_NAME} && cd ${AWS_CLUSTER_NAME}
 
-# 5. Download your configuration files, so that you can customize the configuration before deploying Kubeflow.
-wget -O kfctl_aws.yaml $CONFIG_URI
+# 2.5. Download your configuration files, so that you can customize the configuration before deploying Kubeflow.
+    wget -O kfctl_aws.yaml $CONFIG_URI
 
-aws iam list-roles \
-    | jq -r ".Roles[] \
-    | select(.RoleName \
-    | startswith(\"eksctl-$AWS_CLUSTER_NAME\") and contains(\"NodeInstanceRole\")) \
-    .RoleName"
+# 2.6 Get Rolename for authentication
+    aws iam list-roles \
+        | jq -r ".Roles[] \
+        | select(.RoleName \
+        | startswith(\"eksctl-$AWS_CLUSTER_NAME\") and contains(\"NodeInstanceRole\")) \
+        .RoleName"
     
+# 2.7 Apply yaml file    
+    kfctl apply -V -f kfctl_aws.yaml
+
+# 2.8 Wait for all the resources to become ready in the kubeflow namespace.
+    kubectl -n kubeflow get all
+
+
+# 2.9 Access Kubeflow central dashboard
+    Run the following command to get your Kubeflow service’s endpoint host name and copy link in browser.
+
+    kubectl get ingress -n istio-system
+    Paste the address value in yor browser to view Kubeflow UI
     
-kfctl apply -V -f kfctl_aws.yaml
-
-#Wait for all the resources to become ready in the kubeflow namespace.
-kubectl -n kubeflow get all
-
-
-#Access Kubeflow central dashboard
-#Run the following command to get your Kubeflow service’s endpoint host name and copy link in browser.
-
-kubectl get ingress -n istio-system
-    
+# 3 References:
+1. https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/
+2. https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
+3. https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
