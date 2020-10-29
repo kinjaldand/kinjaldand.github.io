@@ -6,22 +6,37 @@ title: Install Kubeflow on AWS - Step by Step Guide
 
 
 # 1. Prerequites:
-# 1.1 Create Kubernetes Cluster on EKS
+# 1.1 Create Kubernetes Cluster on EKS by following steps described in below link.
+    Note cluster name <cluster_name> and region <region-code>, to be used to configure kubectl in coming steps.
+    Ensure kubernetes nodes can support atleast 45 pods if following below version of yaml file of kubeflow in step 2. this can be achieved with relevant minimum and maximum sizes of nodes in add nodes steps described below.
     https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
-# 1.2 Configure kubectl
+    
+# 1.2 Install aws cli and configure it with aws user credentials.
+    You can refer below link for ubuntu 18
+    https://linuxhint.com/install_aws_cli_ubuntu/
+    
+# 1.3 Install and Configure kubectl
+    https://kubernetes.io/docs/tasks/tools/install-kubectl/
+    
     https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
     aws --version
     aws eks --region <region-code> update-kubeconfig --name <cluster_name>
     kubectl get svc
     
-# 1.3 Deploy sample app to create load balancer:
-# 1.3.1 Ensure below steps are carried out:
+    Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflow via UI you will also need load balancer to assign IP address to istio. You can follow below step for same.
+    
+# 1.4 Deploy sample app to create load balancer:
+# 1.4.1 Ensure below steps are carried out:
     https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
     - VPC subnets tagging
     - In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
     - In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
-# 1.3.2 Deploy sample app from below:
+# 1.4.2 Deploy sample app from below:
     https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
+    
+    kubectl get svc --all-namespaces
+    
+    This should give ClsuterIp as well as Load Balancer in output.
     
     
 # 2. Kubeflow Installation
@@ -72,3 +87,5 @@ title: Install Kubeflow on AWS - Step by Step Guide
 1. https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/
 2. https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
 3. https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
+4. https://kubernetes.io/docs/tasks/tools/install-kubectl/
+5. https://linuxhint.com/install_aws_cli_ubuntu/
