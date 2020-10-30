@@ -59,6 +59,8 @@ Alternatively, use the following kfctl configuration if you want to enable authe
     export AWS_CLUSTER_NAME=<YOUR EKS CLUSTER NAME>
 
 # 2.4. Create the directory you want to store deployment, this has to be ${AWS_CLUSTER_NAME}
+**${AWS_CLUSTER_NAME} - The name of your eks cluster. This will be picked by kfctl and set value to metadata.name. alb-ingress-controller requires correct value to provision application load balancers. Alb will be only created with correct cluster name.
+
     mkdir ${AWS_CLUSTER_NAME} && cd ${AWS_CLUSTER_NAME}
 
 # 2.5. Download your configuration files, so that you can customize the configuration before deploying Kubeflow.
