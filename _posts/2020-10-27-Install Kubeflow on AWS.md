@@ -78,3 +78,8 @@ Paste the address value in yor browser to view Kubeflow UI
 3. https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
 4. https://kubernetes.io/docs/tasks/tools/install-kubectl/
 5. https://linuxhint.com/install_aws_cli_ubuntu/
+
+
+# 4 Install SDK Pipeline to run ml models
+pip3 install kfp --upgrade
+export PATH=$PATH:~/.local/bin
