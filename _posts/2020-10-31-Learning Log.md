@@ -3,7 +3,7 @@ layout: post
 title: Learning Log
 --- 
 
-<table>
+<table class='customers'>
 <thead>
 <td>Date</td>
 <td>Topic</td>
