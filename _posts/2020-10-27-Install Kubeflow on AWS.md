@@ -24,21 +24,7 @@ https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
     kubectl get svc
     
 Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflow via UI you will also need load balancer to assign IP address to istio. You can follow below step for same.
-    
-# 1.4 Deploy sample app to create load balancer:
-# 1.4.1 Ensure below steps are carried out:
-https://aws.amazon.com/premiumsupport/knowledge-center/eks-load-balancers-troubleshooting/
-- VPC subnets tagging
-- In the YAML file for your Kubernetes service, verify that spec.type is set to LoadBalancer.
-- In the YAML file for your Kubernetes service, set annonations: service.beta.kubernetes.io/aws-load-balancer-internal: "true"
-# 1.4.2 Deploy sample app from below:
-https://docs.aws.amazon.com/eks/latest/userguide/sample-deployment.html
-    
-    kubectl get svc --all-namespaces
-    
-This should give ClsuterIp as well as Load Balancer in output.
-    
-    
+       
 # 2. Kubeflow Installation
 # 2.1. Download Kubeflow tar from below link
 https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
