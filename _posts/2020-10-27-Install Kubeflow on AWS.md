@@ -13,7 +13,7 @@ Ensure kubernetes nodes can support atleast 45 pods if following below version o
     
 <h4> 1.2 Install aws cli and configure it with aws user credentials.</h4>
 You can refer below link for ubuntu 18
-<a href='https://linuxhint.com/install_aws_cli_ubuntu/>Install AWS</a>
+<a href='https://linuxhint.com/install_aws_cli_ubuntu/'>Install AWS</a>
     
 <h4> 1.3 Install and Configure kubectl </h4>
 <a href='https://kubernetes.io/docs/tasks/tools/install-kubectl/'>Install kubectl</a>
