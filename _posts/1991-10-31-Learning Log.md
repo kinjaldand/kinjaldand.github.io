@@ -31,5 +31,12 @@ title: Learning Log
     <td><a href='https://github.com/kinjaldand/Kubernetes/blob/main/Kubeflow/KubeflowPipeline.txt'>Kubeflow Pipeline</a></td>
     <td>Kubeflow; kubernetes; MLOPS</td>
     <td></td>  
-  </tr>  
+  </tr> 
+  <tr>
+    <td>31-OCT-2020</td>
+    <td>Kubeflow for ML chapter 5</td>
+    <td><a href='https://github.com/kinjaldand/Kubernetes/blob/main/Kubeflow/KubeflowPipeline.txt'>Kubeflow Pipeline</a></td>
+    <td>Kubeflow; kubernetes; MLOPS</td>
+    <td></td>  
+  </tr>
 </table>
