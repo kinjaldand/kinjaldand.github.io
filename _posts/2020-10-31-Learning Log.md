@@ -13,7 +13,7 @@ title: Learning Log
 <tr>
 <td></td>
 <td></td>
-<td></td>
+  <td><a href=''></a></td>
 <td></td>
 </tr>
 <tr>
