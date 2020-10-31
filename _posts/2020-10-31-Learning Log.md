@@ -19,7 +19,7 @@ title: Learning Log
 <tr>
 <td>31-OCT-2020</td>
 <td>Kubeflow for ML chapter 3</td>
-<td>https://github.com/kinjaldand/Kubernetes/blob/main/Kubeflow/Kubeflow.txt</td>
+<td><a href='https://github.com/kinjaldand/Kubernetes/blob/main/Kubeflow/Kubeflow.txt'>Kubeflow</a></td>
 <td></td>
 </tr>
 </table>
