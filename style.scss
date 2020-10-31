@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $lightGray;
-  font: 18px/1.4 $helvetica;
+  font: 16px/1.4 charter, Georgia, Cambria, "Times New Roman", Times, serif;
   color: $black;
 }
 
@@ -310,7 +310,7 @@ footer {
 }
 
 .mytable {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
   border-collapse: collapse;
   width: 100%;
 }
