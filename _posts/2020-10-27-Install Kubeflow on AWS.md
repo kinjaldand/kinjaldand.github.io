@@ -9,16 +9,16 @@ title: Install Kubeflow on AWS - Step by Step Guide
 <h4> 1.1 Create Kubernetes Cluster on EKS by following steps described in below link.</h4> 
 Note cluster name <cluster_name> and region <region-code>, to be used to configure kubectl in coming steps.
 Ensure kubernetes nodes can support atleast 45 pods if following below version of yaml file of kubeflow in step 2. this can be achieved with relevant minimum and maximum sizes of nodes in add nodes steps described below.
-https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
+    <a href='https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html'>getting-started-console</a>
     
 <h4> 1.2 Install aws cli and configure it with aws user credentials.</h4>
 You can refer below link for ubuntu 18
-https://linuxhint.com/install_aws_cli_ubuntu/
+<a href='https://linuxhint.com/install_aws_cli_ubuntu/>Install AWS</a>
     
 <h4> 1.3 Install and Configure kubectl </h4>
-https://kubernetes.io/docs/tasks/tools/install-kubectl/
+<a href='https://kubernetes.io/docs/tasks/tools/install-kubectl/>Install kubectl</a>
 
-https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html
+<a href='https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html>Configure kubectl</a>
     aws --version
     aws eks --region <region-code> update-kubeconfig --name <cluster_name>
     kubectl get svc
@@ -27,7 +27,7 @@ Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflo
        
 <h3> 2. Kubeflow Installation </h3>
 <h4> 2.1. Download Kubeflow tar from below link</h4>
-https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
+<a href='https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/>Install kubeflow</a>
     
     tar -xvf kfctl_v1.1.0_<platform>.tar.gz
 
@@ -73,11 +73,11 @@ Run the following command to get your Kubeflow service’s endpoint host name an
 Paste the address value in yor browser to view Kubeflow UI
     
 <h3> 3 References: </h3>
-1. https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/
-2. https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html
-3. https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/
-4. https://kubernetes.io/docs/tasks/tools/install-kubectl/
-5. https://linuxhint.com/install_aws_cli_ubuntu/
+1. <a href='https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/'>https://www.oreilly.com/library/view/kubeflow-operations-guide/9781492053262/</a>
+2. <a href='https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html'>https://docs.aws.amazon.com/eks/latest/userguide/getting-started-console.html</a>
+3. <a href='https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/'>https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/</a>
+4. <a href='https://kubernetes.io/docs/tasks/tools/install-kubectl/'>https://kubernetes.io/docs/tasks/tools/install-kubectl/</a>
+5. <a href='https://linuxhint.com/install_aws_cli_ubuntu/'>https://linuxhint.com/install_aws_cli_ubuntu/</a>
 
 
 <h3> 4 Install SDK Pipeline to run ml models </h3>
