@@ -3,13 +3,13 @@ layout: post
 title: Learning Log
 --- 
 
-<table class='customers'>
-<thead>
-<td>Date</td>
-<td>Topic</td>
-<td>Notes</td>
-<td>Misc</td>
-</thead>
+<table class='mytable'>
+<tr>
+<th>Date</th>
+<th>Topic</th>
+<th>Notes</th>
+<th>Misc</th>
+</tr>
 <tr>
 <td></td>
 <td></td>
