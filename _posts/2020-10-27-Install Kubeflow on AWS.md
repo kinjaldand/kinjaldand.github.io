@@ -16,9 +16,9 @@ You can refer below link for ubuntu 18
 <a href='https://linuxhint.com/install_aws_cli_ubuntu/>Install AWS</a>
     
 <h4> 1.3 Install and Configure kubectl </h4>
-<a href='https://kubernetes.io/docs/tasks/tools/install-kubectl/>Install kubectl</a>
+<a href='https://kubernetes.io/docs/tasks/tools/install-kubectl/'>Install kubectl</a>
 
-<a href='https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html>Configure kubectl</a>
+<a href='https://docs.aws.amazon.com/eks/latest/userguide/create-kubeconfig.html'>Configure kubectl</a>
     aws --version
     aws eks --region <region-code> update-kubeconfig --name <cluster_name>
     kubectl get svc
@@ -27,7 +27,7 @@ Result will contain ClusterIp for <cluster_name> . If you want to manage kubeflo
        
 <h3> 2. Kubeflow Installation </h3>
 <h4> 2.1. Download Kubeflow tar from below link</h4>
-<a href='https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/>Install kubeflow</a>
+<a href='https://www.kubeflow.org/docs/aws/deploy/install-kubeflow/'>Install kubeflow</a>
     
     tar -xvf kfctl_v1.1.0_<platform>.tar.gz
 
