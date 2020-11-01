@@ -42,7 +42,7 @@ title: Learning Log
   <tr>
     <td>01-NOV-2020</td>
     <td>Complete Practice Grammar Chap 1 - Verbs -er, present tense</td>
-    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'></a>Grammar</td>
+    <td><a href='https://raw.githubusercontent.com/kinjaldand/FTrial/main/FrenchGrammar.txt'></a>Grammar</td>
     <td>Grammar; er verbs; verb conjugation; present tense;tense</td>
     <td></td>  
   </tr>
