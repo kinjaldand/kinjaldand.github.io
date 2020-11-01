@@ -52,4 +52,12 @@ title: Learning Log
     <td>Grammar; er verbs; verb conjugation; present tense;tense</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>01-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 2</td>
+    <td>Verbs -ir,re, interrogative and negation</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'>Grammar</a></td>
+    <td>Grammar; ir verbs; re verbs; verb conjugation; interrogative; negation</td>
+    <td></td>  
+  </tr>
 </table>
