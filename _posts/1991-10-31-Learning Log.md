@@ -39,4 +39,11 @@ title: Learning Log
     <td>Kubeflow; kubernetes; MLOPS</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>01-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 1 - Verbs -er, present tense</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'></a></td>
+    <td>Grammar; er verbs; verb conjugation; present tense;tense</td>
+    <td></td>  
+  </tr>
 </table>
