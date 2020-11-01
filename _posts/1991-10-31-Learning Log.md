@@ -60,4 +60,12 @@ title: Learning Log
     <td>Grammar; ir verbs; re verbs; verb conjugation; interrogative; negation</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>01-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 3</td>
+    <td>être, avoir, savoir, Connaître, Pouvoir, Vouloir</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'>Grammar</a></td>
+    <td>être ;  avoir ;  savoir ;  Connaître ;  Pouvoir ;  Vouloir</td>
+    <td></td>  
+  </tr>
 </table>
