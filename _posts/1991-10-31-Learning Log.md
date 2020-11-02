@@ -92,4 +92,12 @@ title: Learning Log
     <td>Prenomial Verbs</td>
     <td></td>  
   </tr>
+    <tr>
+    <td>02-NOV-2020</td>
+    <td>Kubeflow for ML chapter 6</td>
+    <td>Artifacts and MetaData Store</td>
+    <td><a href='https://github.com/kinjaldand/Kubernetes/blob/main/Kubeflow/Kubeflow.txt'>Kubeflow Artifacts and MetaData Store</a></td>
+    <td>Kubeflow; kubernetes; MLOPS; artifacts,metadata</td>
+    <td></td>  
+  </tr>
 </table>
