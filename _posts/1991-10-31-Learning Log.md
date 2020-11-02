@@ -68,4 +68,13 @@ title: Learning Log
     <td>être ;  avoir ;  savoir ;  Connaître ;  Pouvoir ;  Vouloir</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>02-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 4</td>
+    <td>Aller, venir,tenir,faire, immediate past, immediate future</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'>Grammar</a></td>
+    <td>Aller, venir,tenir,faire, immediate past, immediate future</td>
+    <td></td>  
+  </tr>
+  
 </table>
