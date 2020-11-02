@@ -76,5 +76,20 @@ title: Learning Log
     <td>Aller, venir,tenir,faire, immediate past, immediate future</td>
     <td></td>  
   </tr>
-  
+  <tr>
+    <td>02-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 5</td>
+    <td>Devoir, il y a , il s'agit de</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'>Grammar</a></td>
+    <td>Devoir, il y a , il s'agit de</td>
+    <td></td>  
+  </tr>
+  <tr>
+    <td>02-NOV-2020</td>
+    <td>Complete Practice Grammar Chap 6</td>
+    <td>Prenomial Verbs</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/FrenchGrammar.txt'>Grammar</a></td>
+    <td>Prenomial Verbs</td>
+    <td></td>  
+  </tr>
 </table>
