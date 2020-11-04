@@ -19,3 +19,9 @@ history -a this_session.history
 ~$ cat ./this_session.history 
 
 Ref: https://askubuntu.com/questions/1026997/is-there-any-way-to-check-history-only-of-current-session
+
+Scenario 3:
+Kubectl delete pod with name filter
+
+kubectl get pods -o name | grep mnist | xargs kubectl delete
+
