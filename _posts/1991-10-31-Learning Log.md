@@ -108,4 +108,12 @@ title: Learning Log
     <td>Kubeflow; kubernetes; MLOPS; training ml model</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>16-DEC-2020</td>
+    <td>Docker in Action</td>
+    <td>Docker Basics</td>
+    <td><a href='https://github.com/kinjaldand/Kubernetes/blob/main/Docker/Chap1_2.txt'>Basics of Docker</a></td>
+    <td>Docker</td>
+    <td></td>  
+  </tr>
 </table>
