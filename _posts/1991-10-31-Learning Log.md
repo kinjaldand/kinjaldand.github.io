@@ -116,4 +116,12 @@ title: Learning Log
     <td>Docker</td>
     <td></td>  
   </tr>
+  <tr>
+    <td>23-DEC-2020</td>
+    <td>Edito A1 Chapter 6</td>
+    <td>Felicitations</td>
+    <td><a href='https://github.com/kinjaldand/FTrial/blob/main/Edito/A1Exercises.txt'>A1 Exercises</a></td>
+    <td>Docker</td>
+    <td></td>  
+  </tr>
 </table>
