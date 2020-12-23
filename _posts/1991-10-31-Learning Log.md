@@ -121,7 +121,7 @@ title: Learning Log
     <td>Edito A1 Chapter 6</td>
     <td>Felicitations</td>
     <td><a href='https://github.com/kinjaldand/FTrial/blob/main/Edito/A1Exercises.txt'>A1 Exercises</a></td>
-    <td>Docker</td>
+    <td>A1, Edito</td>
     <td></td>  
   </tr>
 </table>
