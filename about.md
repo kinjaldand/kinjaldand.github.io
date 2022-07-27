@@ -3,7 +3,7 @@ layout: page
 title:   About me
 permalink: /about/
 ---
-<p><img src="../images/IMG_2554 - Copy.png" alt="Kinjal Dand" height="300" width="200" style='float:left;margin-right:50px;border:5px solid #000;border-radius: 25px;'><span style='display:inline'>Hi! I work as Data Scientist for ATOS. I was born and brought up in Mumbai, India and have more than 7 years of experience working in IT MNCs.
+<p><img src="../images/IMG_2554 - Copy.png" alt="Kinjal Dand" height="300" width="200" style='float:left;margin-right:50px;border:5px solid #000;border-radius: 25px;'><span style='display:inline'>Hi! I work as AI Architect at EY. I was born and brought up in Mumbai, India and have more than 9 years of experience working in IT MNCs.
 My job role is mostly technical but I also switch to functional roles occasionally as required.</span></p>
 
 When I am not working I could be spending time :
