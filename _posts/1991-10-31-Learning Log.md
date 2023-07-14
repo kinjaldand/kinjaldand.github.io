@@ -1,7 +1,4 @@
----
-layout: post
-title: Learning Log
---- 
+
 
 <table class='mytable'>
   <tr>
