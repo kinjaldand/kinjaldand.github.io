@@ -25,3 +25,19 @@ Kubectl delete pod with name filter
 
 kubectl get pods -o name | grep mnist | xargs kubectl delete
 
+Scenario 4:
+stop-pip-from-failing-on-single-package-when-installing-with-requirements-txt
+
+Linux:
+cat requirements.txt | sed -e '/^\s*#.*$/d' -e '/^\s*$/d' | xargs -n 1 pip install
+
+Windows:
+FOR /F %k in (requirements.txt) DO ( if NOT # == %k ( pip install %k ) )
+
+Source:
+https://stackoverflow.com/questions/22250483/stop-pip-from-failing-on-single-package-when-installing-with-requirements-txt
+
+
+
+
+
