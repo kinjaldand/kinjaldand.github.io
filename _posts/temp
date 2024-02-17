@@ -1,0 +1,148 @@
+---
+layout: post
+title: Professional Experience
+--- 
+
+<h2>SUMMARY:</h2> 
+<ul>
+    <li><strong>Data Science Architect</strong> with over <strong>11+ years</strong> of experience in <strong>MLOPS</strong>, <strong>Analytics</strong>, and <strong>Data Science</strong>.</li>
+    <li>Proven track record of leading successful teams and implementing <strong>innovative solutions</strong> to drive business growth.</li>
+    <li><strong>Result-oriented performer</strong>, with extensive <strong>team management</strong> and <strong>customer-facing</strong> experience.</li>
+    <li>Extensive experience in mapping <strong>ad-hoc business requirements</strong> to a <strong>deliverable analytics solution</strong>.</li>
+    <li>Hands-on experience on <strong>Cloud platforms GCP, AWS, Azure</strong>, and <strong>DevOps tools</strong> like <strong>Docker</strong>, <strong>Kubernetes</strong>, and <strong>Jenkins</strong>.</li>
+    <li><strong>Strong communication</strong> and <strong>leadership skills</strong> with a focus on <strong>collaboration</strong> and <strong>teamwork</strong>.</li>
+</ul>
+
+
+<h2>SKILLS:</h2>
+<table>
+    <tr>
+        <td>Programming Languages</td>
+        <td>Python, Pyspark</td>
+    </tr>
+    <tr>
+        <td>Analytics/Data Science</td>
+        <td>Machine Learning, Neural Networks, Deep Learning, Text Analysis, NLP, Computer Vision, ChatGPT, LLM, GAN</td>
+    </tr>
+    <tr>
+        <td>Database</td>
+        <td>Oracle, SQL, My SQL, Postgres SQL, NoSQL, DynamoDB</td>
+    </tr>
+    <tr>
+        <td>Frameworks/Libraries</td>
+        <td>KERAS, TensorFlow, NLTK, Spacy, MLFlow, Airflow, OpenCV</td>
+    </tr>
+    <tr>
+        <td>Cloud</td>
+        <td>AWS, GCP, Azure, AWS Kinesis, Azure DevOps, Azure Pipelines, Azure Data Factory</td>
+    </tr>
+    <tr>
+        <td>DevOps</td>
+        <td>Docker, Kubernetes, Jenkins, Terraform, IAC, ARM</td>
+    </tr>
+    <tr>
+        <td>Visualization Tools</td>
+        <td>Tableau, Qlik Sense, Plotly Dash</td>
+    </tr>
+    <tr>
+        <td>Miscellaneous Tools</td>
+        <td>GitHub, SVN, Linux, Jira, Visual Studio Code, Jupyter Notebooks, Azure ML Studio, Sagemaker, Databricks</td>
+    </tr>
+</table>
+
+
+<h2>RELEVANT CERTIFICATIONS:</h2>
+<table>
+    <tr>
+        <td>Microsoft Certified Azure Developer Associate</td>
+        <td>Jun 2023</td>
+    </tr> 
+    <tr>
+        <td>Google Cloud Associate Engineer</td>
+        <td>Dec 2022</td>
+    </tr>
+    <tr>
+        <td>AWS Certified Solutions Architect Professional</td>
+        <td>May 2022</td>
+    </tr>
+    <tr>
+        <td>AWS Certified Data Analytics Specialty</td>
+        <td>Apr 2022</td>
+    </tr>
+    <tr>
+        <td>Chartered Data Scientist</td>
+        <td>Mar 2022</td>
+    </tr>
+    <tr>
+        <td>ATOS Expert Data Intelligence Domain</td>
+        <td>Jul 2020</td>
+    </tr>
+    <tr>
+        <td>Google Cloud Platform Professional Data Engineer</td>
+        <td>Nov 2019</td>
+    </tr>
+</table>
+
+
+<h2>EDUCATION:</h2>
+<table>
+    <tr>
+        <td>MBA – Tech MBA</td>
+        <td>Jun 2021-May 2023</td>
+        <td>Hult International Business School</td>
+    </tr>
+    <tr>
+        <td>Executive Post Graduation in Business Analytics and Big Data, Data Science</td>
+        <td>Jul 2016-Jun 2017</td>
+        <td>Aegis School of Business, Data Science & Telecommunication</td>
+    </tr>
+    <tr>
+        <td>Bachelor of Engineering Computer Science</td>
+        <td>Aug 2008-Jun 2012</td>
+        <td>Shah and Anchor Kutchi Engineering College, Mumbai University</td>
+    </tr>
+</table>
+
+
+<h2>PROJECTS:</h2>
+<div style="display: flex; justify-content: space-between; width:100%;">
+    <span><strong>Project:</strong> Integrated Risk Monitoring System</span>
+    <span><strong>Role:</strong> Software Developer</span>
+    <span><strong>Domain:</strong> Finance</span>
+</div>
+<br>
+<div style="text-align:justify;">
+    <strong>Description:</strong><br>
+    <ul>
+        <li>
+            A major financial entity involved in the transaction of government bonds required an enhanced risk monitoring system.
+        </li>
+        <li>
+            IRMS served as DataMart for business users to view vast amounts of information and perform risk analytics for the client.
+        </li>
+    </ul>
+    <strong>Responsibilities:</strong><br>
+    <ul>
+        <li>
+            Served as a core developer for the development of a major ETL process which was the backbone of the application.
+        </li>
+        <li>
+            Developed an application to automatically generate daily reports and worked on improving the performance of SQL queries.
+        </li>
+    </ul>
+    <strong>Outcome:</strong>
+    <ul>
+        <li>
+    Providing customers with real-time data increased client compliance by 30% and was one of the major factors leading it to obtain a higher ranking from authorities thereby reducing risk and increasing further business opportunities.
+            </li>
+    </ul>
+    <strong>Technical Skills:</strong>
+    <ul>
+        <li>.NET, C#, Oracle
+            </li>
+    </ul>
+</div>
+
+
+
+
