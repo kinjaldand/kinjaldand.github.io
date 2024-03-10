@@ -3,30 +3,28 @@ layout: post
 title: Portfolio
 --- 
 
-<h1>Projects:</h1>
-
 <ul><h2>Answering user queries with ChatGpt for US Wealth Management Client</h2>
-<li>Built large language model (LLM, GPT 4) based solution to answer customer inquiries related to policies, claims, etc.
+<li>Built large language model <strong>(LLM, GPT 4)</strong> based solution to answer customer inquiries related to policies, claims, etc.
 </li>
-<li>Design prompt templates for BI users, enhancing the output of large language models. 
+<li>Design <strong>prompt templates</strong> for BI users, enhancing the output of large language models. 
 </li>
-<li>Implemented Retrieval-augmented generation (RAG) based SQL Agent from langchain library to generate sql queries.
+<li>Implemented <strong>Retrieval-augmented generation (RAG)</strong> based SQL Agent from langchain library to generate sql queries.
 </li>
-<li>Architected and led the development and deployment of end-to-end solutions on Azure, utilizing components such as Microsoft OpenAI, Docker, Azure DevOps, Web Apps, ACR, and ACI. 
+<li>Architected and led the development and deployment of end-to-end solutions on Azure, utilizing components such as Microsoft <strong>OpenAI, Docker, Azure DevOps, Web Apps, ACR, and ACI</strong>. 
 </li>
-<li>Reduced day-to-day dependency of users on the backend team by 65% and decreased the number of support tickets for data requests by 60%.
+<li><strong>Reduced</strong> day-to-day dependency of users on the backend team by <strong>65%</strong> and decreased the number of support tickets for data requests by <strong>60%</strong>.
 </li>
-<li>Used terraform as IaC to deploy cloud components and services on Azure.
+<li>Used <strong>terraform as IaC</strong> to deploy cloud components and services on Azure.
 </li></ul>
 
 <ul><h2>Customer Lifetime Value for major German Automobile Client</h2>
-<li>Created models for ML model to derive CLTV of customers to find target customers for promotional ads.
+<li>Created models for ML model to derive <strong>CLTV</strong> of customers to find target customers for promotional ads.
 </li>
-<li>Performed data cleaning and manipulation using PySpark on Azure Databricks.
+<li>Performed data cleaning and manipulation using <strong>PySpark</strong> on <strong>Azure Databricks</strong>.
 </li>
-<li>Implemented CI/CD pipeline with Azure Devops to trigger databricks job
+<li>Implemented <strong>CI/CD pipeline with Azure Devops</strong> to trigger databricks job
 </li>
-<li>Used Mlflow to track training experiment data and manage model deployment lifecycle.
+<li>Used <strong>Mlflow</strong> to track training experiment data and manage <strong>model deployment lifecycle</strong>.
 </li></ul>
 
 <ul><h2>Automate Answering Due Diligence Questionnaire for US Wealth Management Client</h2>
