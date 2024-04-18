@@ -1,0 +1,13 @@
+Anonymous Volume
+Named Volume
+Bind Mount
+
+docker run –v /app/data …
+docker run –v data:/app/data …
+docker run –v /path/to/code:/app/code …
+
+Use of Anonymous Volume in docker  
+-  When using bind mount, everything in host will get copied on container. This will also override folders like "node_modules" or "logs" or ".venv". Even if those are in dockerignore.
+-  To prevent override, we can create volumes for subdirectories. Since in docker, more specific path will take precendence over more general path.
+-  Hence, if bind mount for "backend", then we can create named_volume for "/backend/logs" and anonymous volume for "/backend/node_modules".
+-  This way they will stay independent of the "bind mount" and wont get overridden.  
