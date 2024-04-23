@@ -25,6 +25,7 @@
     deletes resources
 
 - depends_on
+  list of items to depend on
   to enforce order of deployment of resources
 
 - variables
@@ -46,6 +47,12 @@
     accessed by each.key, 
   can be key-value
     accessed by each.key, each.value
+
+
+- refering resources/objects within script
+  -- resource - id
+  -- data - object_id
+
 
 
     
