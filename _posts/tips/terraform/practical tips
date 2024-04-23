@@ -13,11 +13,35 @@
   - terraform validate
     basic validation
   - terraform plan
-    creates state file
+    creates state file, tf.state
     compares and generates summary of resources to be created/modified
   - terraform apply
-    actual changes on infra
+    actual changes performed on infra
   - terraform destroy
     deletes resources
+
+- depends_on
+  to enforce order of deployment of resources
+
+- variables
+  can have default values
+  can be passed by tfvars file - mostly not included in git 
+  can be passed as cmd args with terraform plan
+  if no default values are specified, then it will ask during terraform plan stage
+  set sensitive flag to true for passwords or other sensitive info
+
+- locals
+  local vars as input, like local vars in python
+
+- count
+  resource will be executed 'count' times
+  get current count by count.index
+
+- for_each
+  can be set, created by to_set([...])
+    accessed by each.key, 
+  can be key-value
+    accessed by each.key, each.value
+
 
     
