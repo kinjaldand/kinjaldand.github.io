@@ -17,8 +17,10 @@
   - terraform plan
     creates state file, tf.state
     compares and generates summary of resources to be created/modified
+    -- terraform plan -var-file=[environment]/env.tfvars -out=main.tfplan
   - terraform apply
     actual changes performed on infra
+    -- terraform apply main.tfplan
   - terraform destroy
     deletes resources
 
