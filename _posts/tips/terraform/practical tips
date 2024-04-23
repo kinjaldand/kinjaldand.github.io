@@ -8,6 +8,8 @@
   - terraform init 
     -- will login on provider like zure
     -- set terraform version for syntax and other functionalities
+    -- environment specific config and vars init
+        -- terraform init -var-file=[environment]/env.tfvars -backend-config=[environment]/backend.conf -reconfigure
   - terraform fmt
     formats tf files
   - terraform validate
