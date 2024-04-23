@@ -1,0 +1,23 @@
+- providers
+  azure, aws, gcp, kubernetes,...
+
+- definitions can be spread in multiple files, it will take all code form folder
+
+- workflow
+  - write tf file
+  - terraform init 
+    -- will login on provider like zure
+    -- set terraform version for syntax and other functionalities
+  - terraform fmt
+    formats tf files
+  - terraform validate
+    basic validation
+  - terraform plan
+    creates state file
+    compares and generates summary of resources to be created/modified
+  - terraform apply
+    actual changes on infra
+  - terraform destroy
+    deletes resources
+
+    
