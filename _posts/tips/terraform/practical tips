@@ -52,6 +52,10 @@
 - refering resources/objects within script
   -- resource - id
   -- data - object_id
+  
+- resource vs data
+	-- resource is for objects handled by terraform
+	-- data is for resources already present in azure  
 
 
 
