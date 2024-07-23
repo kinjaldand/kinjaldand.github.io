@@ -8,7 +8,13 @@ installing-python-packages-without-internet-and-using-source-code-as-tar-gz-and
     
       pip download -r ./requirements.txt -d "./pip_files"
 
-      tar cvfz dependencies.tar.gz dependencies
+  -----ZIP UNZIP
+  
+        tar cvfz dependencies.tar.gz dependencies
+  
+        tar zxvf pip_files.tar.gz
+        cd pip_files
+        pip install * -f ./ --no-index
 
   https://stackoverflow.com/questions/7300321/how-to-use-pythons-pip-to-download-and-keep-the-zipped-files-for-a-package
 
