@@ -8,6 +8,8 @@ installing-python-packages-without-internet-and-using-source-code-as-tar-gz-and
     
       pip download -r ./requirements.txt -d "./pip_files"
 
+      tar cvfz dependencies.tar.gz dependencies
+
   https://stackoverflow.com/questions/7300321/how-to-use-pythons-pip-to-download-and-keep-the-zipped-files-for-a-package
 
     pip wheel mypackage -w .\outputdir
