@@ -1,0 +1,13 @@
+installing-python-packages-without-internet-and-using-source-code-as-tar-gz-and
+
+  https://stackoverflow.com/questions/36725843/installing-python-packages-without-internet-and-using-source-code-as-tar-gz-and
+  
+      pip download -r .requirements.txt -d "./pip_files_src" --no-binary :all:  --no-deps
+    
+      cat ./requirements.txt | xargs -n 1 pip download --no-binary :all: -d "./pip_files_src" --no-deps
+    
+      pip download -r ./requirements.txt -d "./pip_files"
+
+  https://stackoverflow.com/questions/7300321/how-to-use-pythons-pip-to-download-and-keep-the-zipped-files-for-a-package
+
+    pip wheel mypackage -w .\outputdir
