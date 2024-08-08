@@ -1,0 +1,1 @@
+this line in requirements.txt: kedro-azureml @ git+https://github.com/kinjaldand/kedro-azureml.git@675b26c4a4c519bc4110e4ad557b808bd79e4563
