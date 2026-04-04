@@ -15,8 +15,10 @@ When I am not working I could be spending time :
 
 <span style='display:inline'>
 You can learn more about my professional career on <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a>. 
-Feel free to reach out to me at <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a> or drop a mail at [kinjal_dand@yahoo.in](mailto:kinjal_dand@yahoo.in) Have a nice day! </span>
-
+Feel free to reach out to me at <a href='https://www.linkedin.com/in/kinjaldand/'>LinkedIn</a> or drop me a <a href="mailto:kinjal_dand@yahoo.in">mail.</a>  Have a nice day! </span>
+<br/>
+<br/>
+<br/>
 <div class="date">
     Written on April 04, 2026
 </div>
