@@ -2,6 +2,27 @@
 layout: post
 title: Portfolio
 --- 
+<ul><h2>Autonomous Triage Agent for ML jobs running on internal AI platform</h2>
+<li>Engineered a <strong>read-only AI Agent</strong> to automate the triage of complex ML job failures, assisting platform users to quickly diagnose errors.</li>
+<li>Built a custom <strong>Python MCP Server</strong> to provide the agent with a secure, real-time interface to <strong>Kubernetes</strong> logs and cluster metadata.</li>
+<li>Architected a <strong>RAG pipeline</strong> using <strong>Amazon Aurora (pgvector)</strong> with <strong>HNSW indexing</strong>, enabling high-speed semantic retrieval of runbooks.</li>
+<li>Implemented <strong>Agentic Memory</strong> within Aurora to store and correlate incident briefs, identifying recurring failure patterns automatically.</li>
+<li><strong>Reduced</strong> median time-to-first-plausible-diagnosis by <strong>15–25%</strong> and standardized the triage process across distributed engineering teams.</li>
+</ul>
+
+<ul><h2>Auto recovery and auto-cordon for AI platform infrastructure</h2>
+<li>Built reliability automation on the <strong>GPU orchestration and scheduling</strong> layer for generative AI workloads across a multi-thousand-GPU fleet.</li>
+<li>Implemented <strong>auto recovery</strong> to detect unhealthy distributed training jobs and drive automated remediation for ~100 incidents per day.</li>
+<li><strong>Reduced</strong> mean time to recovery <strong>(MTTR) by 10%</strong> by routing common failure paths through auto recovery instead of ad-hoc restarts.</li>
+<li>Delivered the <strong>auto-cordon pipeline</strong> to isolate unhealthy nodes, cutting training-job workload shuffle by <strong>5%</strong> and reducing repeat failures.</li>
+</ul>
+
+<ul><h2>MLOps Framework for major Government Organization</h2>
+<li>Spearheaded the design and implementation of a comprehensive <strong>MLOps framework on Azure ML Studio</strong>, significantly enhancing the automation and scalability of machine learning workflows.</li>
+<li>Enabled the seamless integration of <strong>CI/CD pipelines</strong>, ensuring efficient model training, evaluation, and deployment processes.</li>
+<li><strong>Accelerated</strong> the deployment of machine learning models into <strong>production by 40%</strong> and established robust monitoring, leading to a <strong>25% improvement</strong> in model performance and reliability.</li>
+</ul>
+
 
 <ul><h2>Answering user queries with ChatGpt for US Wealth Management Client</h2>
 <li>Built large language model <strong>(LLM, GPT 4)</strong> based solution to answer customer inquiries related to policies, claims, etc.
